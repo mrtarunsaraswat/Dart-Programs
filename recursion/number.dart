@@ -5,7 +5,7 @@ import 'recursion.dart';
 void main() {
   print("Enter the last number:");
 
-  int lastNumber = int.parse( "10");
+  int lastNumber = int.parse(stdin.readLineSync() ?? "0");
 
   print("Enter the initial number:");
 
